@@ -33,11 +33,12 @@ export default function TradoorLandingPage() {
         <h1 className="text-3xl md:text-5xl font-bold mb-4">Meet Tradoor, the Ultimate Counter-Indicator</h1>
         <p className="text-xl md:text-2xl mb-8">If Tradoor buys, you better start selling.</p>
         <button 
-          type="button"
-          className="bg-red-500 hover:bg-red-600 text-white font-bold py-4 px-8 rounded-full text-xl transform transition duration-300 hover:scale-105 hover:rotate-3"
-        >
-          Join the Madness – Buy $NECK Now!
-        </button>
+  type="button"
+  onClick={() => window.open('https://pump.fun/coin/BByRYGw5yrSQpPXFYoy7euzwtxwkbKz8JpQwz9sgpump', '_blank')}
+  className="bg-red-500 hover:bg-red-600 text-white font-bold py-4 px-8 rounded-full text-xl transform transition duration-300 hover:scale-105 hover:rotate-3"
+>
+  Join the Madness – Buy $NECK Now!
+</button>
       </section>
 
       {/* About Section */}
@@ -87,12 +88,19 @@ export default function TradoorLandingPage() {
             <p className="text-xl font-bold mt-4">When Tradoor buys the dip...</p>
             <p className="text-xl font-bold">...but the dip keeps dipping.</p>
           </div>
-          <button 
-            type="button"
-            className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full"
-          >
-            Share Tradoor's Dip Dipping Moment!
-          </button>
+          <a 
+  href="https://twitter.com/tradoormeme"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block"
+>
+  <button 
+    type="button"
+    className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full"
+  >
+    Share Tradoor's Dip Dipping Moment!
+  </button>
+</a>
         </div>
       </section>
 
@@ -104,12 +112,19 @@ export default function TradoorLandingPage() {
             Tradoor became a meme on Crypto Twitter when he publicly announced his "all-in" position on $LUNA, right before it went to zero. Since then, he's become the crypto mascot for everything not to do in trading. People love him for his absurd optimism, even when he's down 99%. He's the ultimate anti-hero—everyone knows he's doomed, but they can't help but root for him anyway.
           </p>
           <div className="text-center">
-            <button 
-              type="button"
-              className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-full text-xl"
-            >
-              Join the Tradoor Fan Club – Follow the FOMO!
-            </button>
+          <a 
+  href="https://t.me/+ZEm9wvmvuXE2MjQx"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block"
+>
+  <button 
+    type="button"
+    className="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-full text-xl"
+  >
+    Join the Tradoor Fan Club – Follow the FOMO!
+  </button>
+</a>
           </div>
         </div>
       </section>
