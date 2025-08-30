@@ -139,8 +139,8 @@ export default function TradoorLandingPage() {
       <a href="https://x.com/TradoorMeme" className="text-white hover:text-yellow-400" aria-label="Twitter">
         <FaTwitter className="w-6 h-16" />
       </a>
-      <a href="https://t.me/+ZEm9wvmvuXE2MjQx" className="text-white hover:text-yellow-400" aria-label="Telegram">
-        <FaTelegram className="w-6 h-16" />
+      <a href="https://discord.gg/QQSWB8rC" className="text-white hover:text-yellow-400" aria-label="Discord">
+        <FaDiscord className="w-6 h-16" />
       </a>
     </div>
   </div>
