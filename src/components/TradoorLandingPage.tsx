@@ -2,7 +2,7 @@
 
 import * as React from 'react'
 import { GiShirt, GiThumbUp, GiNeckBite } from 'react-icons/gi'
-import { FaTwitter, FaTelegram, FaDiscord } from 'react-icons/fa'
+import { FaTwitter, FaDiscord } from 'react-icons/fa'
 
 interface TraitCardProps {
   icon: React.ReactNode
@@ -113,7 +113,7 @@ export default function TradoorLandingPage() {
           </p>
           <div className="text-center">
           <a 
-  href="https://t.me/+ZEm9wvmvuXE2MjQx"
+  href="https://discord.gg/QQSWB8rC"
   target="_blank"
   rel="noopener noreferrer"
   className="inline-block"
