@@ -34,7 +34,7 @@ export default function TradoorLandingPage() {
         <p className="text-xl md:text-2xl mb-8">If Tradoor buys, you better start selling.</p>
         <button 
   type="button"
-  onClick={() => window.open('https://pump.fun/coin/BByRYGw5yrSQpPXFYoy7euzwtxwkbKz8JpQwz9sgpump', '_blank')}
+  onClick={() => window.open('https://raydium.io/swap/?inputMint=sol&outputMint=BByRYGw5yrSQpPXFYoy7euzwtxwkbKz8JpQwz9sgpump', '_blank')}
   className="bg-red-500 hover:bg-red-600 text-white font-bold py-4 px-8 rounded-full text-xl transform transition duration-300 hover:scale-105 hover:rotate-3"
 >
   Join the Madness – Buy $NECK Now!
